@@ -1,0 +1,73 @@
+#
+# mod-sentinelcore configuration
+#
+
+[worldserver]
+
+#
+# SentinelCore.Enable
+#   Master switch.
+#   Default: 1
+#
+SentinelCore.Enable = 1
+
+#
+# SentinelCore.Announce
+#   Send login message when the module is active.
+#   Default: 1
+#
+SentinelCore.Announce = 1
+
+#
+# SentinelCore.LogToDatabase
+#   Write structured events to acore_characters.
+#   Requires data/sql/db-characters/sentinelcore_characters.sql
+#   Default: 1
+#
+SentinelCore.LogToDatabase = 1
+
+#
+# SentinelCore.LogToFile
+#   Write sentinelcore.log and sentinelcore_metrics.log in the worldserver working directory.
+#   Default: 1
+#
+SentinelCore.LogToFile = 1
+
+#
+# Feature switches.
+#
+SentinelCore.TrackLogin = 1
+SentinelCore.TrackMovement = 1
+SentinelCore.TrackEconomy = 1
+SentinelCore.TrackMetrics = 1
+SentinelCore.TrackGM = 1
+
+#
+# SentinelCore.MovementCheckIntervalMs
+#   Movement check interval per player.
+#   Default: 5000
+#
+SentinelCore.MovementCheckIntervalMs = 5000
+
+#
+# SentinelCore.MovementDistanceThreshold
+#   2D movement distance threshold before recording a movement alert.
+#   GM characters are ignored.
+#   Default: 180.0
+#
+SentinelCore.MovementDistanceThreshold = 180.0
+
+#
+# SentinelCore.MetricsIntervalSeconds
+#   Server metrics interval.
+#   Default: 300
+#
+SentinelCore.MetricsIntervalSeconds = 300
+
+#
+# SentinelCore.EconomyGoldThresholdCopper
+#   Money delta threshold in copper.
+#   10000000 copper = 1000 gold.
+#   Default: 10000000
+#
+SentinelCore.EconomyGoldThresholdCopper = 10000000

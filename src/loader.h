@@ -1,0 +1,6 @@
+#ifndef MOD_SENTINELCORE_LOADER_H
+#define MOD_SENTINELCORE_LOADER_H
+
+void AddSC_mod_sentinelcore();
+
+#endif // MOD_SENTINELCORE_LOADER_H

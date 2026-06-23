@@ -1,0 +1,3 @@
+-- mod-sentinelcore
+-- World DB file reserved for optional future NPC, dashboard objects or in-game commands.
+-- Current v1.0 does not require world database changes.

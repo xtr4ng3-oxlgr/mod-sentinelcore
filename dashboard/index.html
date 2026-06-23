@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>SentinelCore Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="brand">SENTINELCORE</div>
+  <div class="sub">AzerothCore Observability / Audit / Reports</div>
+</header>
+
+<main>
+  <section class="hero">
+    <div>
+      <h1>Server visibility without noise.</h1>
+      <p>GM activity, movement signals, economy thresholds, sessions and metrics in one defensive audit layer.</p>
+    </div>
+    <div class="score">
+      <span id="score">--</span>
+      <small>risk score</small>
+    </div>
+  </section>
+
+  <section class="grid">
+    <div class="card"><h2>Events</h2><pre id="events">Load a report JSON to preview data.</pre></div>
+    <div class="card"><h2>Severity</h2><pre id="severity">-</pre></div>
+    <div class="card"><h2>Players</h2><pre id="players">-</pre></div>
+    <div class="card"><h2>Actions</h2><pre id="actions">-</pre></div>
+  </section>
+
+  <section class="card">
+    <h2>Load report</h2>
+    <input type="file" id="file" accept=".json">
+  </section>
+</main>
+
+<footer>xtr4ng3 · SentinelCore</footer>
+<script src="app.js"></script>
+</body>
+</html>
