@@ -1,5 +1,8 @@
 # mod-sentinelcore
 
+<img width="1672" height="941" alt="sentinel" src="https://github.com/user-attachments/assets/d963c84a-f2aa-4e6a-8368-152e3f3c4546" />
+
+
 **SentinelCore** is an observability and audit module for AzerothCore WotLK servers.
 
 It helps administrators understand player sessions, GM activity, movement signals, economy thresholds and server metrics through structured logs, database tables and defensive reports.
@@ -59,7 +62,7 @@ Clone into the AzerothCore modules directory:
 
 ```bash
 cd /home/azeroth/azerothcore-wotlk/modules
-git clone https://github.com/YOUR-USER/mod-sentinelcore.git
+git clone https://github.com/xtr4ng3-oxlgr/mod-sentinelcore.git
 ```
 
 Build AzerothCore:
@@ -139,9 +142,10 @@ This is a v1.0 foundation release.
 Hook signatures can vary between AzerothCore revisions. If your core has custom API differences, adjust the script hook signatures in `src/SentinelCore.cpp`.
 
 ---
+## Licencia
 
-## License
-
-MIT.
+<img width="384" height="384" alt="giphy (4)" src="https://github.com/user-attachments/assets/18d64b9e-fba8-493e-8462-f6722e0e64b7" />
 
 **xtr4ng3**
+
+MIT.
